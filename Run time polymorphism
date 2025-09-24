@@ -1,0 +1,18 @@
+class student():
+    def __init__(my,name,age,rno,marks):
+        my.name=name
+        my.age=age
+        my.rno=rno
+        my.marks=marks
+    def result(my):
+        pass
+class st1(student):
+    def result(my):
+        print("Not pass the exams")
+class st2(student):
+    def result(my):
+        print("pass the exams")
+s=st1
+s.result(student)
+p=st2
+p.result(student)
