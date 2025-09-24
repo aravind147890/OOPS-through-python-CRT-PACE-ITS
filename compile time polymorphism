@@ -1,0 +1,22 @@
+class student1():
+    def name(self):
+        print("Shameer is his name")
+    def marks(self):
+        print("924 is his marks")
+    def age(self):
+        print("21 is his age")
+class student2():
+    def name(self):
+        print("Venky is his name")
+    def marks(self):
+        print("935 is his marks")
+    def age(self):
+        print("19 is his age")
+def fun(obj):
+    obj.name()
+    obj.marks()
+    obj.age()
+obj_p1 = student1()
+obj_p2 = student2()
+fun(obj_p1)
+fun(obj_p2)
